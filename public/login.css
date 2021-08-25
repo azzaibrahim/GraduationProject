@@ -1,0 +1,969 @@
+
+body{
+  background: #ffffff;
+}
+
+
+/*   slider image 
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+ */
+
+
+
+
+
+
+/*  navbar  */
+
+
+.container-fluid{
+  background: #405371;
+    width: 100%;
+    height: 55px
+}
+
+
+.d-flex{
+    float: right;
+    margin-right: 95px;
+    margin-top: 15px;
+}
+.form-control{
+   background-image: url(img/search.png);
+    background-color: #5d6d86;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+        background-position: 6% center;
+    border: none;
+    text-align: right;
+    border-radius: 23px;
+    width: 205px;
+    height: 29px;
+}
+.form-control::placeholder {
+   color: #ffffff;
+   font-family: Tajawal;
+}
+
+.imgnavlogo{
+
+display: block;
+    margin: 0px 50%;
+}
+
+.textlogo{
+    margin: 0px 50%;
+    width: max-content;
+    text-align: center;
+    color: white;
+       font-family: Tajawal;
+}
+.imgnav{
+    padding: 9px;
+    margin-top: -78px;
+    margin-right: -133px;
+    margin-left: 141px;
+}
+
+.imgnavtext{
+    margin-top: -38px;
+    color: #ffffff;
+    font-family: Tajawal;
+    margin-left: 40px;
+}
+/*
+
+.nav2{
+  background:#ffffff;
+  
+}
+.imgnav{
+
+  color: #ffffff;
+    padding: 9px;
+    margin: 11px;
+    padding-left: 20px;
+}
+.imgnavlogo{
+      float: right;
+    padding: 3px;
+    margin: 3px;
+    padding-right: 66px;
+    }
+
+    .textlogo{
+ float: right;
+ 
+    margin: 8px;
+    margin-right: -74px;
+    padding-right: -1px;
+ 
+    padding-top: 23px;
+    font-family: Ara Asmaa Beltajie;
+    color: #ffffff;
+
+    }
+
+*/
+/***********************/
+
+   .textnav2 {
+text-decoration: none;
+    color: #405371;
+    font-family: Tajawal;
+    font-weight: 700;
+    padding: -3px;
+    margin: 8px;
+    padding-left: -1px;
+    float: right;
+    padding-right: 47px;
+
+   }
+
+ .textnav2:hover{
+    color: #ffb6b0;
+   }
+
+
+
+
+/*
+ 
+ .navmenu-content:hover {
+display: none;
+    position: absolute;
+    text-decoration: none;
+    color: #ffb6b0;
+   
+    margin-bottom: 22px;
+    margin-top: 33px;
+    padding-left: 42px;
+    padding-right: 23px;
+    padding-top: 12px;
+    padding-bottom: 72px;
+    margin-left: -39px;
+    margin-right: 53px;
+    padding-left: -6px;
+    text-align: right;
+    background-color: #efeff1
+
+    
+   }
+*/
+
+
+
+   .navmenu:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu{
+     position: relative;
+  
+   }
+
+
+.navmenu-content{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+  z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 1144px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu:hover .navmenu-content {
+  display: block;
+
+}
+
+
+
+
+>....
+
+
+
+
+
+
+   .navmenu1:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu1{
+     position: relative;
+  
+   }
+
+
+.navmenu-content1{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+  z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 1009px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content1 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content1 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu1:hover .navmenu-content1 {
+  display: block;
+
+}
+
+
+
+>.....
+
+
+
+   .navmenu2:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu2{
+     position: relative;
+  
+   }
+
+
+.navmenu-content2{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 912px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content2 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content2 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu2:hover .navmenu-content2 {
+  display: block;
+
+}
+
+
+>...
+
+
+
+
+   .navmenu3:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu3{
+     position: relative;
+  
+   }
+
+
+.navmenu-content3{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 801px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content3 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content3 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu3:hover .navmenu-content3 {
+  display: block;
+
+}
+
+
+>...
+
+
+
+   .navmenu4:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu4{
+     position: relative;
+  
+   }
+
+
+.navmenu-content4{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 700px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content4 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content4 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu4:hover .navmenu-content4 {
+  display: block;
+
+}
+
+
+
+
+>>.......
+
+
+   .navmenu5:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu5{
+     position: relative;
+  
+   }
+
+
+.navmenu-content5{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 590px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content5 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content5 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu5:hover .navmenu-content5 {
+  display: block;
+
+}
+
+
+
+>........
+
+
+   .navmenu6:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu6{
+     position: relative;
+  
+   }
+
+
+.navmenu-content6{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 466px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content6 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content6 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu6:hover .navmenu-content6 {
+  display: block;
+
+}
+
+
+
+>.....
+
+   .navmenu7:hover{
+  color: #ffb6b0;
+   }   
+
+   .navmenu7{
+     position: relative;
+  
+   }
+
+
+.navmenu-content7{
+   display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 99999999999999999999999999999999;
+    padding: 13px;
+    margin-left: 362px;
+    margin-top: 33px;
+       font-family: Tajawal;
+    color: #ffb6b0;
+}
+
+.navmenu-content7 a {
+    color: #ffb6b0;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.navmenu-content7 a:hover {
+  background-color: #405371;
+
+
+}
+
+.navmenu7:hover .navmenu-content7 {
+  display: block;
+
+}
+
+
+
+
+
+/*  company   */
+
+.company{
+    color: #b77a7f;
+    text-align: right;
+    font-family: Tajawal;
+    font-weight: bold;
+    /* margin-left: 8px; */
+    font-size: 44px;
+    margin-right: 53px;
+}
+
+.img-company-group{
+  border-radius: 50%;
+  width: 170px;
+  height:170px;
+  padding: 20px;
+}
+
+.text-company-group{
+font-family: Tajawal;
+  color: #405371;
+  font-weight: bold;
+  display: inline;
+  margin: 70px;
+  padding: 10px;
+
+
+}
+
+
+a {
+
+  text-decoration: none;
+}
+
+
+/* best seller */
+
+.best-seller{
+background-color: #fbfbfb;
+}
+
+.text-best-seller{
+    color: #b77a7f;
+    text-align: right;
+    font-family: Tajawal;
+    font-weight: bold;
+    /* margin-left: 8px; */
+    font-size: 44px;
+    margin-right: 53px;
+}
+
+
+
+
+.responsive1:first-child{
+   margin-left:129px;
+}
+.responsive1:last-child{
+   margin-right:0;
+}
+.responsive1 {
+margin-top: 32px;
+    margin-bottom: 41px;
+    margin-left: 168px;
+    margin-right: -83px;
+    padding: -26px;
+    float: left;
+    width: 302px;
+    height: 285px;
+    border: 5px solid white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 39px;
+}
+
+.responsive1 img{
+   width:100%;
+   height: 100%;
+   position: absolute;
+   top:0;
+   left:0;
+   filter: grayscale(100%);
+}
+
+
+.responsive1:hover {
+  cursor: pointer;
+  border:5px solid #405371;
+  transition: border  1s;
+}
+
+.responsive1:hover img{
+  filter: none;
+   transition: filter  1s;
+}
+
+.responsive1:hover img{
+transform: scale(1.1);
+  transition: transform  1s;
+}
+
+.price-best-seller{
+color: #405371;
+    background-color: #ffffff;
+    border-radius: 14px;
+    position: absolute;
+    margin: 26px;
+    padding: 10px;
+    /*z-index: 99999999999999999999999999999999;*/
+}
+
+
+
+
+
+/*  special-offers */
+
+
+.special-offers{
+    color: #b77a7f;
+    text-align: right;
+    font-family: Tajawal;
+    font-weight: bold;
+    /* margin-left: 8px; */
+    font-size: 44px;
+    margin-right: 53px;
+}
+
+
+
+.scrolling-wrapper {
+
+   overflow-y: hidden;
+
+white-space: nowrap;
+}
+
+
+ .card{
+    display: inline-block;
+
+    margin: 5px;
+    margin-left: 50px;
+
+
+  }
+
+  .card img{
+    width: 376px;
+    height: 265px;
+  
+  }
+
+
+.text1-card{
+color: #ffffff;
+   /* border-radius: 14px; */
+    position: absolute;
+    margin: -91px;
+        font-size: 25px;
+    font-weight: bold;
+    margin-left: 21px;
+    margin-right: -38px;
+    padding-top: -20px;
+font-family: Tajawal;
+   /* z-index: 99999999999999999999999999999999;*/
+
+
+
+}
+
+.text2-card{
+color: #ffffff;
+    /* border-radius: 14px; */
+    position: absolute;
+    margin: -91px;
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 21px;
+    margin-right: -38px;
+    margin-top: -58px;
+    padding-top: -24px;
+    font-family: Tajawal;
+ /*   z-index: 99999999999999999999999999999999;*/
+
+}
+
+
+.prev, .next {
+cursor: pointer;
+    width: auto;
+    padding: 16px;
+    margin-top: -161px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+        position: absolute;
+    background-color: rgb(183 122 127);
+}
+
+
+.next {
+  right:5px;
+  border-radius: 10px 0 0 10px;
+      float: right;
+}
+
+.prev {
+  left: 5px;
+
+      float: left;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  
+}
+
+
+  /* Featured-Products */
+
+  .Featured-Products{
+    color: #b77a7f;
+    text-align: right;
+    font-family: Tajawal;
+    font-weight: bold;
+    /* margin-left: 8px; */
+    font-size: 44px;
+    margin-right: 53px;
+  }
+
+
+  .responsive2:first-child{
+   margin-left:91px;
+}
+.responsive2:last-child{
+   margin-right:0;
+}
+
+.responsive2 {
+margin-top: 32px;
+    margin-bottom: 41px;
+    margin-left: 168px;
+    margin-right: -83px;
+    padding: -26px;
+    float: left;
+
+    border: 5px solid white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 39px;
+}
+.responsive2-img{
+
+    border-radius: 39px;
+}
+
+
+.responsive2text{
+    color: #b87c80;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 9px;
+    margin-left: 60px;
+    font-family: Tajawal;
+}
+
+
+.responsive2text2{
+color: #405371;
+    font-weight: bold;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 114px;
+    font-family: Tajawal;
+}
+}
+
+
+.responsive2price2{
+font-family: Tajawal;
+    margin-left: 73px;
+    margin-top: 2px;
+}
+
+
+
+/*  footer  */
+
+
+footer{
+
+background-color: #405371;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    height: 416px;
+
+}
+
+.footer img {
+      float: right;
+    /* margin-left: 50px; */
+    margin: 133px;
+    margin-right: 253px;
+}
+
+
+.link-company a{
+  color: #ffffff;
+  float: right;
+  text-decoration: none;
+
+
+}
+
+
+.link-company{
+ float: right;
+    width: 119.5px;
+    /* height: 53px; */
+    margin-top: 79px;
+    margin-right: -34px;
+
+}
+
+
+.link1-company a{
+  color: #ffffff;
+  float: right;
+  text-decoration: none;
+
+
+}
+
+
+.link1-company{
+ float: right;
+    width: 145.5px;
+    /* height: 53px; */
+    margin-top: 79px;
+    margin-right: 52px;
+
+}
+
+
+.link2-company a{
+  color: #ffffff;
+  float: right;
+  text-decoration: none;
+
+
+}
+
+
+.link2-company{
+float: right;
+    width: 175.5px;
+    /* height: 53px; */
+    margin-top: 79px;
+    margin-right: 77px;
+
+}
+
+
+
+
+.contact{
+  color:  #979797;
+  margin-top: 57px;
+  margin-left: 63px;
+}
+
+.contact input {
+border-radius: 14px;
+    border-width: 0px;
+    background-color: #ffffff;
+    padding: 11px;
+    /* margin-right: -25px; */
+    margin: 6px;
+    margin-left: -57px;
+    text-align: right;
+}
+
+.submit{
+  color: #405371;
+  float: right;
+}
+
+
+
+
